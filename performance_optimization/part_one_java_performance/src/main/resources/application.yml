@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: part_one_java_performance
+  datasource:
+    url: jdbc:h2:file:./part_one_java_performance
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+jwt:
+  secret_key: cyb9eDTQmPMSrab/LE5mJSED8TwmyEAgOjV8lHLHLbTPpPcUNsqO9wnD+RUqKxyk
+
+superadmin:
+  email: ims@gmail.com
+  password: _@Password123
+  firstName: super
+  lastName: admin
+
+#server:
+#  servlet:
+#    context-path: /api/v1
